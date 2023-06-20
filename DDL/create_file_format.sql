@@ -1,0 +1,7 @@
+Create or replace FILE FORMAT file_format
+  TYPE = 'CSV'
+  FIELD_DELIMITER = ','
+  RECORD_DELIMITER='\n'
+  DATE_FORMAT = 'DD-MM-YYYY'
+  SKIP_HEADER = 1
+  FIELD_OPTIONALLY_ENCLOSED_BY='"';
